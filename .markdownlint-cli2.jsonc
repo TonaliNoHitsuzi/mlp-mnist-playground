@@ -1,0 +1,16 @@
+// markdownlint 配置：关闭不适用的风格规则，保留真正的格式错误检查
+// 详见 https://github.com/DavidAnson/markdownlint
+{
+  "config": {
+    // 中文文档行宽限制不适用（一个汉字≈2字符宽度），关闭
+    "MD013": false,
+    // 表格管道符风格是纯偏好，GitHub 两种都渲染，关闭
+    "MD060": false,
+    // 允许引用块内空行（教程里多个 💡 提示块之间需要空行分隔）
+    "MD028": false,
+    // 列表前后空行规则对中文笔记过于严格，关闭
+    "MD032": false,
+    // 允许行内 HTML（部分排版需要）
+    "MD033": false
+  }
+}
